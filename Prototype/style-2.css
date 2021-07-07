@@ -1,0 +1,388 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Customized css starts here */
+
+h1 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10%;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10%;
+}
+
+body {
+    background-color: #3B928C;
+}
+
+.nav {
+    background-color: #65B587;
+    height: 20px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.nav div {
+    display: inline;
+    margin: 1%;
+}
+
+.banners-text {
+    font-size: 70px;
+}
+
+.banners-man img {
+    display: none;
+}
+
+.aboutus a {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.menu a {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.contact a {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.home a {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.first {
+    display: flex;
+    margin-top: 5%;
+}
+
+.icon1 {
+    padding: 5%;
+}
+
+.icon1 img {
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+.text1 {
+    align-self: center;
+}
+
+.text1 p {
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+.second {
+    display: flex;
+    margin-top: 5%;
+}
+
+.icon2 {
+    padding: 5%;
+}
+
+.icon2 img {
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+.text2 {
+    align-self: center;
+}
+
+.text2 p {
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+.third {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5%;
+}
+
+.icon3 {
+    padding: 5%;
+}
+
+.icon3 img {
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+.text3 {
+    align-self: center;
+}
+
+.text3 p {
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+.forth {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5%;
+}
+
+.icon4 {
+    padding: 5%;
+}
+
+.icon4 img {
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+.text4 {
+    align-self: center;
+}
+
+.text4 p {
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+@media screen and (min-width: 1200px) {
+
+    h1 {
+        font-size: 70px;
+    }
+    
+    h2 {
+       font-size: 50px;
+       margin-top: 5%;
+    }
+    
+    .nav {
+        font-size: 40px;
+    }
+    .nav a:hover {
+        color: white;
+        background-color: #65B587;
+        transition: 1s;
+    }
+    .nav div {
+        margin: 5%;
+    }
+
+    .banners {
+        margin-top: 5%;
+    }
+
+    .banners-man img {
+        display: block;
+    }
+  
+    .banners {
+        display: flex;
+        flex-direction: row;
+    }
+    .banners-text {
+       align-self: center; 
+    }
+
+    .first-roll {
+        display: flex;
+    }
+
+    .third ,.forth {
+        flex-direction: row;
+    }
+
+    .second-roll{
+        display: flex;
+    }
+    
+    .icon1 img {
+        border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    }
+
+    .icon4 img {
+        border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    }
+
+    .Home-button {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .Home-button a {
+        color: white;
+        background-color: #DE4147;
+        text-decoration: none;
+        padding: 2%;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+}

@@ -8,21 +8,28 @@
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
+    <!-- Customized code starts here -->
+    <!-- I chose to wrap almost the entire page with a "main" div element to make it easier to layout the page with a grid in the css editor later -->
+    <div class="main">
   <div class="logo">
+    <!-- Use the "img" tag to import the first image of the entire page into html -->
       <img src="./img/logo.png" alt="logo">
   </div>
+  <!-- Create div elements for easy css specification later -->
   <div class="top">
-      <p>Want to be your own boss?</p>
+      <h1>Want to be your own boss?</h1>
   </div>
   <div class="top2">
       <p>Start today and make up to $30/hr driving your own vehicle with Dash</p>
   </div>
   <div class="pictures">
+    <!-- Use "object" tag to import svg files into my html -->
     <object data="./img/scooter.svg" type="image/svg+xml"></object>
   </div>
+  <!-- Use the "section" tag to wrap the entire login form. This makes it easier to specify where to move the entire form later in the css editor -->
   <section class="table">
       <div class="table-title">
-          <p>Apply Now</p>
+          <h2>Apply Now</h2>
       </div>
       <div class="table-txet2">
           <p>Enter your info below.</p>
@@ -30,14 +37,52 @@
       <div class="form">
           <form action="#">
               <input type="text" name="First-name" placeholder="First name">
-              <br>
+              <!-- <br>Use "br" tags to align input boxes vertically -->
               <input type="text" name="Last-name" placeholder="Last name">
               <br>
               <input type="text" name="Phone-number" placeholder="Phone number">
               <br>
-              
+              <input type="text" name="Email Address" placeholder="Email Address">
+              <br>
           </form>
       </div>
+      <br>
+      <div class="questionnaire">
+        <input type="radio" name="agree" id="agree">
+        <label for="radio">I agree to dash terms</label>
+      </div>
+      <br>
+      <div class="button">
+          <button type="submit">DRIVE WITH US</button>
+      </div>
+      <div class="Statement">
+        <!-- Use the "span" tag to easily change the color of some text in the css editor -->
+          <p>Already applied?<span class="Orange">your application status here</span></p>
+      </div>
   </section>
+  </div>
+  <!-- The body part ends, the footer starts here -->
+  <footer>
+      <div class="foottext1">
+          <p>See how much you can earn with Dash.</p>
+      </div>
+      <div class="foottext2">
+          <p>how many hours do you want to drive with us this week?</p>
+      </div>
+      <div class="adress">
+          <input type="text" placeholder="Hours">
+          <input type="text" placeholder="City">
+      </div>
+      <div class="button2">
+          <button type="submit">CALCALATE</button>
+      </div>
+      <div class="icon">
+          <object data="./icon/facebook.svg" type="image/svg+xml"></object>
+          <object data="./icon/instagram.svg" type="image/svg+xml"></object>
+          <object data="./icon/twitter.svg" type="image/svg+xml"></object>
+          <object data="./icon/linkedin.svg" type="image/svg+xml"></object>
+      </div>
+
+  </footer>
 </body>
 </html>
