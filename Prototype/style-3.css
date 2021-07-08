@@ -140,19 +140,19 @@ table {
 body {
     background-color: #3B928C;
 }
-
+/* Set the element spacing of the navigation bar */
 .nav {
     background-color: #65B587;
     height: 20px;
     text-align: center;
     padding: 50px 0;
 }
-
+/* Use the "inline" property to change a vertically aligned div box to a horizontally aligned one. Use the margin property to add some distance to it from other elements. Use "%" as a unit to make the page fit better to more screen sizes */
 .nav div {
     display: inline;
     margin: 1%;
 }
-
+/* Use "border" and "border-radius" to create a border and shape for the navigation links. Make it more like a button */
 .aboutus a {
     border: 1px solid;
     border-radius: 10px;
@@ -184,7 +184,7 @@ body {
     text-decoration: none;
     background-color: white;
 }
-
+/* Set background images for banners to change the monotony of page colors */
 .banners {
     background-image: url(./img/background.jpg);
 }
@@ -203,7 +203,7 @@ body {
 .banners-text p {
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* Set the position of text in banners to fit the screen size better */
 .title h2 {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -211,7 +211,7 @@ body {
     padding: 5%;
     color: white;
 }
-
+/* Use "border" and "border-radius" to add a border to the text. And use "padding" to add distance between the border and the icon itself */
 .item1 {
     padding: 3%;
     margin: 5% 0;
@@ -365,7 +365,7 @@ body {
 .item6-text p {
     text-align: center;
 }
-
+/* Use "border" and "border-radius" to create a border and shape for the navigation links. Make it more like a button . Change his border fill color as well as the text color to make it more ornamental. */
 .footer h1 {
     text-align: center;
     color: white;
@@ -375,12 +375,16 @@ body {
     border: 1px solid black;
     border-radius: 10px;
 }
+/*  screen size of cell phones and tablets ends here */
 
+/* Set the width 1200px for the new layout */
 @media screen and (min-width: 1200px) {
     .nav {
         font-size: 40px;
     }
 
+    
+/* Set the color and background color of the navigation links, and use the "transition" property to set the animation duration to 1s */
     .nav a:hover {
         color: white;
         background-color: #65B587;

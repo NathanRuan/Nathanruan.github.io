@@ -135,7 +135,7 @@ table {
 }
 
 /* Customized css starts here */
-
+/* Set the font, font size and font color to center the text and add distance */
 h1 {
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -153,14 +153,14 @@ h2 {
 body {
     background-color: #3B928C;
 }
-
+/* Set the element spacing of the navigation bar */
 .nav {
     background-color: #65B587;
     height: 20px;
     text-align: center;
     padding: 50px 0;
 }
-
+/* Use the "inline" property to change a vertically aligned div box to a horizontally aligned one. Use the margin property to add some distance to it from other elements. Use "%" as a unit to make the page fit better to more screen sizes */
 .nav div {
     display: inline;
     margin: 1%;
@@ -173,7 +173,7 @@ body {
 .banners-man img {
     display: none;
 }
-
+/* Use "border" and "border-radius" to create a border and shape for the navigation links. Make it more like a button */
 .aboutus a {
     border: 1px solid;
     border-radius: 10px;
@@ -181,7 +181,7 @@ body {
     text-decoration: none;
     background-color: white;
 }
-
+/* Use "border" and "border-radius" to create a border and shape for the navigation links. Make it more like a button */
 .menu a {
     border: 1px solid;
     border-radius: 10px;
@@ -189,7 +189,7 @@ body {
     text-decoration: none;
     background-color: white;
 }
-
+/* Use "border" and "border-radius" to create a border and shape for the navigation links. Make it more like a button */
 .contact a {
     border: 1px solid;
     border-radius: 10px;
@@ -197,7 +197,7 @@ body {
     text-decoration: none;
     background-color: white;
 }
-
+/* Use "border" and "border-radius" to create a border and shape for the navigation links. Make it more like a button */
 .home a {
     border: 1px solid;
     border-radius: 10px;
@@ -214,7 +214,7 @@ body {
 .icon1 {
     padding: 5%;
 }
-
+/* Use "border" and "border-radius" to add a border to the icon. And use "padding" to add distance between the border and the icon itself */
 .icon1 img {
     border: 1px solid white;
     border-radius: 10%;
@@ -224,7 +224,7 @@ body {
 .text1 {
     align-self: center;
 }
-
+/* Use "border" and "border-radius" to add a border to the text. And use "padding" to add distance between the border and the icon itself */
 .text1 p {
     border: 1px solid white;
     border-radius: 10%;
@@ -239,7 +239,7 @@ body {
 .icon2 {
     padding: 5%;
 }
-
+/* Use "border" and "border-radius" to add a border to the icon. And use "padding" to add distance between the border and the icon itself */
 .icon2 img {
     border: 1px solid white;
     border-radius: 10%;
@@ -249,13 +249,13 @@ body {
 .text2 {
     align-self: center;
 }
-
+/* Use "border" and "border-radius" to add a border to the text. And use "padding" to add distance between the border and the icon itself */
 .text2 p {
     border: 1px solid white;
     border-radius: 10%;
     padding: 15px;
 }
-
+/* Use flex and flex-direction attributes to flip the alignment of text and elements to make the page look better */
 .third {
     display: flex;
     flex-direction: row-reverse;
@@ -265,7 +265,7 @@ body {
 .icon3 {
     padding: 5%;
 }
-
+/* Use "border" and "border-radius" to add a border to the icon. And use "padding" to add distance between the border and the icon itself */
 .icon3 img {
     border: 1px solid white;
     border-radius: 10%;
@@ -275,7 +275,7 @@ body {
 .text3 {
     align-self: center;
 }
-
+/* Use "border" and "border-radius" to add a border to the text. And use "padding" to add distance between the border and the icon itself */
 .text3 p {
     border: 1px solid white;
     border-radius: 10%;
@@ -307,7 +307,9 @@ body {
     border-radius: 10%;
     padding: 15px;
 }
+/*  screen size of cell phones and tablets ends here */
 
+/* Set the width 1200px for the new layout */
 @media screen and (min-width: 1200px) {
 
     h1 {
@@ -322,6 +324,7 @@ body {
     .nav {
         font-size: 40px;
     }
+    /* Set the color and background color of the navigation links, and use the "transition" property to set the animation duration to 1s */
     .nav a:hover {
         color: white;
         background-color: #65B587;
@@ -359,6 +362,7 @@ body {
         display: flex;
     }
     
+    /* Use "border" and "border-radius" to add borders to the icons. And use "padding" to increase the distance between the border and the icon itself. Use 50%, border-radius to change the icon border shape to round */
     .icon1 img {
         border: 1px solid white;
     border-radius: 50%;
@@ -376,6 +380,7 @@ body {
         text-align: center;
     }
 
+    /* Use "border" and "border-radius" to create a border and shape for the navigation links. Make it more like a button . Change his border fill color as well as the text color to make it more ornamental. */
     .Home-button a {
         color: white;
         background-color: #DE4147;

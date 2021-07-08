@@ -136,6 +136,7 @@ table {
 
 /* Customized css starts here */
 
+/* Use the animation property to create animations that will later enhance the user experience of the site */
 @keyframes jump {
     50% { transform: translate(0,-100px);
   
@@ -153,7 +154,7 @@ body {
     text-align: center;
     padding: 50px 0;
 }
-
+/* Use the "inline" property to change a vertically aligned div box to a horizontally aligned one. Use the margin property to add some distance to it from other elements. Use "%" as a unit to make the page fit better to more screen sizes */
 .nav div {
     display: inline;
     margin: 5%;
@@ -162,7 +163,7 @@ body {
 .banners-text {
     font-size: 70px;
 }
-
+/* Use "border" and "border-radius" to create a border and shape for the navigation links. Make it more like a button */
 .aboutus a {
     border: 1px solid;
     border-radius: 10px;
@@ -190,7 +191,7 @@ body {
 .img img {
     width: 100%;
 }
-
+/* Hide images added for computer screen size pages */
 .img-2 {
     display: none;
 }
@@ -203,13 +204,14 @@ body {
 .mainimg-1 img {
     width: 50%;
 }
-
+/* Use the "flex" attribute to align images and text horizontally, and use "margin" to increase their distance from other elements */
 .mainimg-1 {
     display: flex;
     text-align: center;
     margin: 20px 0 0 0;
 }
 
+/* Use "border" and "border-radius" to create a border and shape for the text. Make it more ornamental . Use the padding property to add some distance to it from other elements */
 .mainimg-1 span {
     padding: 13%;
     border: 1px solid;
@@ -224,7 +226,7 @@ body {
 .mainimg-2 img {
     width: 50%;
 }
-
+/* Use "border" and "border-radius" to create a border and shape for the text. Make it more ornamental . Use the padding property to add some distance to it from other elements */
 .mainimg-2 span {
     padding: 13%;
     border: 1px solid;
@@ -275,6 +277,7 @@ body {
     margin: 10%;
 }
 
+/* Use "border" and "border-radius" to create a border and shape for the navigation links. Make it more like a button . Change his border fill color as well as the text color to make it more ornamental. */
 .footer-Buttons a {
     color: white;
     background-color: #DE4147;
@@ -283,7 +286,9 @@ body {
     border: 1px solid black;
     border-radius: 10px;
 }
+/*  screen size of cell phones and tablets ends here */
 
+/* Set the width 1200px for the new layout */
 @media screen and (min-width: 1200px) {
 
     .img img {
@@ -299,6 +304,7 @@ body {
     .nav {
         font-size: 40px;
     }
+    /* Set the color and background color of the navigation links, and use the "transition" property to set the animation duration to 1s */
     .nav a:hover {
         color: white;
         background-color: #65B587;
@@ -367,6 +373,7 @@ body {
         display: none;
     } 
 
+    /* Use the previously edited animation on the button (link). Make the button more attractive to the viewer */
     .footer-Buttons {
         animation-name: jump;
         animation-duration: 2s;
