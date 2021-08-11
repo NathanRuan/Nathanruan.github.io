@@ -1,0 +1,315 @@
+.home-background {
+    background-color: gray;
+}
+
+.nav-1 h1 {
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* Set the background image of the banner and use the background-size tag to set it to fit the size of the banner */
+.nav-1 {
+    background-image: url(./img/1.png);
+    background-size: cover;
+}
+
+.nav-1 div {
+    padding: 6%;
+    text-align: center;
+}
+/* Change the font of the title and remove the underline. Add borders to make the home page options more ornamental */
+.nav-1 a {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 10px 10px;
+    padding: 5px;
+}
+
+.home-roll1-1 {
+    border: 1px solid;
+    background-color: wheat;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.home-roll1-1img {
+    margin-top: 10%
+}
+
+.home-roll1-1title {
+    font-family: 'Do Hyeon', sans-serif;
+    color: gray;
+}
+
+.home-roll1-1text {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.home-roll1-2 {
+    border: 1px solid;
+    background-color: wheat;
+    text-align: center;
+}
+
+.home-roll1-2img {
+    margin-top: 10%
+}
+
+.home-roll1-2title {
+    font-family: 'Do Hyeon', sans-serif;
+    color: gray;
+}
+
+.home-roll1-2text {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.home-roll2-1 {
+    border: 1px solid;
+    background-color: wheat;
+    text-align: center;
+}
+
+.home-roll2-1img {
+    margin-top: 10%
+}
+
+.home-roll2-1title {
+    font-family: 'Do Hyeon', sans-serif;
+    color: gray;
+}
+
+.home-roll2-1text {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.home-roll2-2 {
+    border: 1px solid;
+    background-color: wheat;
+    text-align: center;
+}
+
+.home-roll2-2img {
+    margin-top: 10%
+}
+
+.home-roll2-2title {
+    font-family: 'Do Hyeon', sans-serif;
+    color: gray;
+}
+
+.home-roll2-21text {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+footer {
+    color: white;
+    background-color: #1F2123;
+
+}
+
+.nav-2 {
+    background-image: url(./img/3\ \(1\).png);
+    background-size: cover;
+}
+
+.nav-2 h1 {
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.nav-2 div {
+    padding: 6%;
+    text-align: center;
+}
+
+/* Change the font of the title and remove the underline. Add borders to make the home page options more ornamental */
+.nav-2 a {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.Aboutme-img {
+    display: none;
+}
+.aboutme-text {
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid;
+    background-color: wheat;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.nav-3 {
+    background-image: url(./img/10.png);
+    background-size: cover;
+}
+
+.nav-3 h1 {
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.Introduction1,.Introduction2,.team-buttons {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.Introduction1 {
+    margin-top: 5%;
+}
+
+.team-buttons a {
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #2699FB;
+}
+
+.card-title {
+    text-align: center;
+}
+.card-roll1 {
+    margin-top: 10%;
+}
+
+
+.nav-4 h1 {
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.nav-4 {
+    background-image: url(./img/unnamed.jpg);
+    background-size: cover;
+}
+
+.nav-4 div {
+    padding: 5%;
+    text-align: center;
+}
+
+.nav-4 a {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+    .nav-1 div {
+        text-align: start;
+        padding: 4%;
+    }
+    .nav-1 a {
+        
+        border:none;    
+    }
+    /* Add hover property to the button to make it more ornamental */
+    .nav-1 a:hover {
+        text-decoration: underline;
+        color: tomato;
+    }
+
+    .home-roll1 {
+        display: flex;
+    }
+    .home-roll1-2 {
+        margin-top: auto;
+    }
+    .home-roll1-1, .home-roll1-2 {
+        margin: 5% 5% 5% 5%;
+    }
+
+    .home-roll2 {
+        display: flex;
+    }
+    .home-roll2-1 {
+        margin-top: auto;
+    }
+    .home-roll2-1, .home-roll2-2 {
+        margin: 5% 5% 5% 5%;
+    }
+
+    .nav-2 div {
+        text-align: start;
+        padding: 4%;
+    }
+    .nav-2 a {
+        
+        border:none;    
+    }
+    .nav-2 a:hover {
+        text-decoration: underline;
+        color: tomato;
+    }
+
+    .Aboutme-img {
+        display: inline;
+        margin-top: 6%;
+    }
+    .Aboutme-img img {
+        width: 300px;
+    }
+
+    .abuotme-main {
+        display: flex;
+    }
+
+    .aboutme-text {
+        background-color: white;
+        margin: 10% 5% 5% 5%;
+    }
+
+    .nav-3 {
+        background-size: contain;
+    }
+
+    .card-roll1,.card-roll2,.card-roll3 {
+        display: flex;
+        justify-content: center;
+    }
+    .card-1 {
+        margin: auto 20% 5% 5%;
+    }
+    .card-3 {
+        margin: auto 20% 5% 5%;
+    }
+    .card-5 {
+        margin: auto 20% 5% 5%;
+    }
+
+    .nav-4 div {
+        text-align: start;
+        padding: 4%;
+    }
+    .nav-4 a {
+        
+        border:none;    
+    }
+    .nav-4 a:hover {
+        text-decoration: underline;
+        color: tomato;
+    }
+
+
+}
